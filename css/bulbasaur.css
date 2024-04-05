@@ -1,0 +1,33 @@
+body {
+    background-color: #65DECF;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho{
+    background-image: url("../img/bulbasaur-header.jpg");
+    background-size: contain;
+    height: 15vh;
+    width: 100vw;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:antiquewhite
+}
+
+section{
+
+}
+
+#rodape {
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    text-align: center;
+    padding-top: 5em;
+}
+

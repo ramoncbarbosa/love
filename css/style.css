@@ -1,0 +1,47 @@
+body {
+    background-color: #65DECF;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho {
+    text-align: center;
+    height: 10vh;
+    padding-bottom: 5em;
+}
+
+#principal {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    background-image: url("../img/bulbasaur.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 8.5rem;
+    border-radius: 12px;
+    width: 10vw;
+    height: calc(60vh - 40vh);
+}
+
+#secao-principal{
+    padding-bottom: 18em;
+}
+
+#go {
+    border: 2px solid #65DECF;
+    color: #489f54;
+    border-radius: 6px;
+    padding: 8px 16px;
+    margin: 10px;
+}
+
+#rodape {
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    text-align: center;
+    padding-top: 5em;
+}
