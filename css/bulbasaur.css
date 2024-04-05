@@ -1,22 +1,30 @@
 body {
-    background-color: #65DECF;
+    /* background-color: #65DECF; */
+    background-image: url("../img/suculentas.jpg");
+    background-size: cover;
     color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
 #cabecalho{
-    background-image: url("../img/bulbasaur-header.jpg");
-    background-size: contain;
-    height: 15vh;
+    /* background-image: url("../img/bulbasaur-header.jpg");
+    background-size: contain; */
+    background-color: #5E8C8D;
+    height: 12vh;
     width: 100vw;
+    margin-bottom: 4em;
 }
 
 main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:antiquewhite
+    background-color: #5E8C8D;
+    width: 60vw;
+    height: 60vh;
+    margin: auto;
+
 }
 
 section{
@@ -28,6 +36,6 @@ section{
     width: 100vw;
     position: fixed;
     text-align: center;
-    padding-top: 5em;
+    margin-top: 3em;
 }
 
