@@ -22,7 +22,8 @@ main{
     align-items: center;
     background-color: #5E8C8D;
     width: 60vw;
-    height: 60vh;
+    height: 65vh;
+    border-radius: 8px;
     margin: auto;
 
 }
